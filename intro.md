@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Einleitung"
-permalink /einleitung/
+permalink: /einleitung/
 ---
 
 # Einleitung
