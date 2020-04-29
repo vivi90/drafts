@@ -1,7 +1,7 @@
 <ul>
     <li id="home" {% if subpage.title == page.title %} class="current" {% endif %}><a href="{{ site.baseurl }}">Startseite</a></li>
     {% for subpage in site.pages %}
-        {% if (subpage.title) && subpage.title != "Startseite" %}
+        {% if subpage.title and subpage.title != "Startseite" %}
             <li {% if subpage.title == page.title %} class="current" {% endif %}><a href="{{ subpage.url | prepend: site.baseurl }}">{{ subpage.title }}</a></li>
         {% endif %}
     {% endfor %}

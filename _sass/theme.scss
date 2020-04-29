@@ -5,20 +5,18 @@ body {
 nav {
     background: #101010;
     color: #f0f0f0;
-    text-decoration: none;
 }
 
 nav li {
-    font-weight: bold;
     background: #703d3d;
 }
 
 nav li a {
+    text-decoration: none;
     color: #f0f0f0;
 }
 
 .current {
-    font-weight: bolder;
     background-color: #a03d3d;
 }
 
