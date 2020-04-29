@@ -2,13 +2,18 @@ body {
     background: #303030;
 }
 
-nav, nav a {
+nav {
     background: #101010;
     color: #f0f0f0;
+    text-decoration: none;
 }
 
-.current::after {
-    content: ' <';
+nav li {
+    background: #696969;
+}
+
+.current::before {
+    content: '> ';
     font-weight: bolder;
 }
 
