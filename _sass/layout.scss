@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html, body {
     height: 96%;
 }
@@ -10,13 +5,10 @@ html, body {
 body {
     display: flex;
     padding: 2%;
-    background: #303030;
 }
 
 nav {
     padding: 1%;
-    background: #101010;
-    color: #f0f0f0;
 }
 
 li {
@@ -28,9 +20,4 @@ li {
 main {
     padding: 1%;
     margin-left: 1%;
-    background: #a0a0a0;
-}
-
-nav, main {
-    box-shadow: 0.5rem 0.5rem 0.5rem #000000;
 }

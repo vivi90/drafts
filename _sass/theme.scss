@@ -1,0 +1,16 @@
+body {
+    background: #303030;
+}
+
+nav {
+    background: #101010;
+    color: #f0f0f0;
+}
+
+main {
+    background: #a0a0a0;
+}
+
+nav, main {
+    box-shadow: 0.5rem 0.5rem 0.5rem #000000;
+}
