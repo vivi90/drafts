@@ -2,9 +2,14 @@ body {
     background: #303030;
 }
 
-nav {
+nav, nav a {
     background: #101010;
     color: #f0f0f0;
+}
+
+.current::after {
+    content: ' <';
+    font-weight: bolder;
 }
 
 main {
