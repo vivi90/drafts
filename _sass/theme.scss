@@ -8,23 +8,24 @@ nav {
 }
 
 nav li {
-    background: #703d3d;
+    background: #303030;
 }
 
 nav li a {
     text-decoration: none;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .current {
-    background-color: #a03d3d;
+    background-color: #a0a0a0;
 }
 
-.current::before {
-    content: '> ';
+.current a {
+    color: #000000;
 }
 
 main {
+    color: #000000;
     background: #a0a0a0;
 }
 
