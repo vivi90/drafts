@@ -9,12 +9,21 @@ nav {
 }
 
 nav li {
-    background: #696969;
+    font-weight: bold;
+    background: #703d3d;
+}
+
+nav li a {
+    color: #f0f0f0;
+}
+
+.current {
+    font-weight: bolder;
+    background-color: #a03d3d;
 }
 
 .current::before {
     content: '> ';
-    font-weight: bolder;
 }
 
 main {
