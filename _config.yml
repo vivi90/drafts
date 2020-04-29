@@ -1,1 +1,4 @@
-title: Example
+include: ['_pages']
+kramdown:
+    input: GFM
+    
