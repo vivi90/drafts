@@ -1,5 +1,4 @@
 title: Bloodsync
-baseurl: ''
 include: ['_pages']
 sass:
   sass_dir: _sass
