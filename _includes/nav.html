@@ -1,9 +1,13 @@
 <ul>
-    <li id="home" {% if "Startseite" == page.title %} class="current" {% endif %}><a href="{{ site.baseurl }}">Startseite</a></li>
-    <li id="chapter">Kapitel:</li>
-    {% for subpage in site.pages %}
-        {% if subpage.title and subpage.title != "Startseite" %}
-            <li {% if subpage.title == page.title %} class="current" {% endif %}><a href="{{ subpage.url | prepend: site.baseurl }}">{{ subpage.title }}</a></li>
-        {% endif %}
-    {% endfor %}
+    <a href="{{ '/' | prepend: site.baseurl }}"><li id="home" {% if "Startseite" == page.title %} class="current" {% endif %}>Startseite</li></a>
+    <li id="chapter">Kapitel:
+        <ul>
+            {% for subpage in site.pages %}
+                {% if subpage.title and subpage.title != "Startseite" %}
+                    <a href="{{ subpage.url | prepend: site.baseurl }}"><li {% if subpage.title == page.title %} class="current" {% endif %}>{{ subpage.title }}</li></a>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
 </ul>
+<a id="source" href="https://github.com/vivi90/bloodsync">Bearbeiten</a>

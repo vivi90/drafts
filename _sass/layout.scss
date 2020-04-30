@@ -1,33 +1,31 @@
-html, body {
-    height: 96%;
-}
-
 body {
     display: flex;
+    min-height: 92vh;
     padding: 2%;
 }
 
 nav {
-    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
     padding: 1%;
 }
 
+nav > ul {
+    flex-grow: 1;
+}
+
 nav li {
-    padding: 6%;
-    margin-bottom: 20%;
     list-style: none;
+    white-space: nowrap;
     font-weight: bold;
-    width: 100%;
     text-align: left;
 }
 
 #home {
-    margin-bottom: 40%;
     text-align: center;
 }
 
 main {
-    flex-grow: 1;
     padding: 1%;
-    margin-left: 1%;
+    margin-left: 2%;
 }

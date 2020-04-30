@@ -4,33 +4,56 @@ body {
 
 nav {
     background: #101010;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 nav li {
     background: #303030;
+    border: #303030 solid 1rem;
 }
 
-nav li a {
+nav ul a {
     text-decoration: none;
     color: #ffffff;
 }
 
 .current {
     background-color: #a0a0a0;
-}
-
-.current a {
     color: #000000;
+    border-color: #a0a0a0;
 }
 
 #chapter {
     background: none;
+    border: none;
+    margin-top: 20%;
     color: #a0a0a0;
-    border-bottom: 2px dotted #a0a0a0;
     font-weight: normal;
     font-style: italic;
     text-align: left;
+    box-shadow: none;
+}
+
+#chapter li {
+    margin: 10% 0;
+    font-style: normal;
+}
+
+#source {
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #303030;
+    border: #303030 solid;
+    border-width: 0.2em 0.5em;
+}
+
+#source::before {
+    content: "✎";
+    margin-right: 0.2em;
+    font-size: 1.5em;
+    vertical-align: sub;
 }
 
 main {
@@ -38,6 +61,6 @@ main {
     background: #a0a0a0;
 }
 
-nav, main {
+nav, nav li, #source, main {
     box-shadow: 0.5rem 0.5rem 0.5rem #000000;
 }
